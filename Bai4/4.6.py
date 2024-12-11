@@ -1,0 +1,6 @@
+print("Sinh Viên: Hồ Trọng Nhân")
+print("MSSV: 235752021610123")
+ten_day_du = input("Nhập tên đầy đủ: ")
+ho, ten = ten_day_du.split(maxsplit=1)
+print("Họ:", ho)
+print("Tên:", ten)
