@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="caud.baith1"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 02:07:50 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1EQUNGRU1BOzIwMjQtMTAtMDI7MDE6NTY6MzUgUE07MjgyOA=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1EQUNGRU1BOzIwMjQtMTAtMDI7MDI6MDc6NTAgUE07MTsyOTMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="length" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap chieu dai&quot;" newline="True"/>
+            <input variable="length"/>
+            <declare name="height" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap chieu cao&quot;" newline="True"/>
+            <input variable="height"/>
+            <assign variable="area" expression="(length*height)/2"/>
+            <output expression="&quot;Dien tich tam giac la&quot;&amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
